@@ -1,0 +1,13 @@
+Package: testeapp
+Title: meme_teste
+Version: 0.0.0.9000
+Authors@R: person('Diogo', 'Rocha', email = 'diogosbr@GMAIL.COM', role = c('cre', 'aut'))
+Description: Gera um meme com o texto informado.
+License: What license is it under?
+Imports: 
+    config,
+    golem,
+    shiny
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
