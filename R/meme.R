@@ -1,5 +1,5 @@
-meme <- function(robin1, robin2, robin3, 
-                 batman1, batman2, batman3,
+meme <- function(robin1, robin2, robin3 = "", 
+                 batman1, batman2, batman3 = "",
                  bat.pos1 = c(430, 500),
                  bat.pos2 = c(420, 460),
                  bat.pos3 = c(420, 420),
