@@ -10,7 +10,12 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("testeapp")
+      h2("Gerador do meme"),
+      textInput("robin", "Robin", "A terra é plan...", width = "50%"),
+      textInput("batman", "Batman", "Cala a boca!", width = "50%"),
+      #textInput("size", "Tamanho", "1"),
+      sliderInput("size", "Tamanho do texto", 1.4, step = 0.1, min = 0.1, max = 3, width = '150px'),
+      plotOutput("meme")
     )
   )
 }

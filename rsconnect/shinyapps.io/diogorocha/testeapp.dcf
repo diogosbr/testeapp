@@ -1,0 +1,12 @@
+name: testeapp
+title: testeapp
+username:
+account: diogorocha
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2815968
+bundleId: 3633432
+url: https://diogorocha.shinyapps.io/testeapp/
+when: 1600217578.77746
+asMultiple: FALSE
+asStatic: FALSE
