@@ -14,8 +14,8 @@ app_ui <- function(request) {
       sidebarPanel(
         textInput("robin1", "Robin 1L *", "A terra é plan...", width = "100%"),
         splitLayout(
-          sliderInput("rob.pos1_x", "x", 150, step = 10, min = 100, max = 400, width = "100px"),
-          sliderInput("rob.pos1_y", "y", 500, step = 10, min = 350, max = 600, width = "100px"),
+          sliderInput("rob.pos1_x", "x", 150, step = 10, min = 90, max = 300, width = "100px"),
+          sliderInput("rob.pos1_y", "y", 500, step = 10, min = 400, max = 510, width = "100px"),
           cellWidths = c("50%", "50%")
         ),
         
@@ -23,8 +23,8 @@ app_ui <- function(request) {
         
         textInput("robin2", "Robin 2L", "", width = "100%"),
         splitLayout(
-          sliderInput("rob.pos2_x", "x", 150, step = 10, min = 100, max = 400, width = "100px"),
-          sliderInput("rob.pos2_y", "y", 470, step = 10, min = 350, max = 600, width = "100px"),
+          sliderInput("rob.pos2_x", "x", 150, step = 10, min = 90, max = 300, width = "100px"),
+          sliderInput("rob.pos2_y", "y", 470, step = 10, min = 400, max = 510, width = "100px"),
           cellWidths = c("50%", "50%")
         ),
         
@@ -38,14 +38,14 @@ app_ui <- function(request) {
         textInput("batman1", "Batman 1L *", "Cala a boca!", width = "100%"),
         splitLayout(
           sliderInput("bat.pos1_x", "x", 430, step = 10, min = 350, max = 600, width = "100px"),
-          sliderInput("bat.pos1_y", "y", 500, step = 10, min = 350, max = 600, width = "100px"),
+          sliderInput("bat.pos1_y", "y", 500, step = 10, min = 400, max = 510, width = "100px"),
           cellWidths = c("50%", "50%")
         ),
         
         textInput("batman2", "Batman 2L", "", width = "100%"),
         splitLayout(
           sliderInput("bat.pos2_x", "x", 430, step = 10, min = 350, max = 600, width = "100px"),
-          sliderInput("bat.pos2_y", "y", 460, step = 10, min = 350, max = 600, width = "100px"),
+          sliderInput("bat.pos2_y", "y", 460, step = 10, min = 400, max = 510, width = "100px"),
           cellWidths = c("50%", "50%")
         ),
         
